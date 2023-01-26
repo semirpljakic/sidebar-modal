@@ -10,7 +10,7 @@ const Home = () => {
       <button className='sidebar-toggle' onMouseDown={openSidebar}>
         <FaBars></FaBars>
       </button>
-      <button className='btn' onMouseDown={openModal}>
+      <button className='btn' onClick={openModal}>
         show modal
       </button>
     </main>
